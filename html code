@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahathi's Webpage</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Mahathi Aki 👩‍💻</h1>
+    <p>Aspiring Web Developer | CSE Student | Tech Enthusiast</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hello! I am <strong>Mahathi Aki</strong>, a Computer Science student exploring 
+      the exciting world of Web Development and Software Engineering.
+    </p>
+    <img src="https://via.placeholder.com/350x200.png?text=Mahathi+Learning+Web+Dev" alt="Mahathi">
+  </section>
+
+  <section>
+    <h2>Learning Resources</h2>
+    <p>
+      I constantly practice and improve my skills.  
+      Here’s a site I love for learning:  
+      <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Try My Interactive Buttons</h2>
+    <button onclick="sayHello()">Say Hello 👋</button>
+    <button onclick="toggleTheme()">Toggle Dark Mode 🌙</button>
+    <button onclick="showDate()">Show Date 📅</button>
+  </section>
+
+  <footer>
+    <p id="date"></p>
+    <p>© 2025 Mahathi Aki | Learning & Growing 🚀</p>
+  </footer>
+
+  <script src="script.js"></script> <!-- External JS -->
+</body>
+</html>
