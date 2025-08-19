@@ -1,0 +1,20 @@
+function sayHello() {
+  alert("Hello 👋 I am Mahathi! Excited to learn Web Development.");
+}
+
+function toggleTheme() {
+  const body = document.body;
+  if (body.style.backgroundColor === "black") {
+    body.style.backgroundColor = "#fff3e6";
+    body.style.color = "#333";
+  } else {
+    body.style.backgroundColor = "black";
+    body.style.color = "white";
+  }
+}
+
+function showDate() {
+  const today = new Date();
+  document.getElementById("date").textContent =
+    "📅 Today's Date: " + today.toDateString();
+}
